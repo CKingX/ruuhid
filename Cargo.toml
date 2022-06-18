@@ -1,14 +1,14 @@
 [package]
 name = "ruuhid"
-version = "0.0.0"
+version = "0.1.0"
 edition = "2021"
 
 
-[dependencies.structopt]
-version = "0.3.25"
+[dependencies]
+clap = {version = "3.2.4", features = ["derive"] }
 
 [dependencies.uuid]
 features = [
     "v4"
 ]
-version = "1.0.0-alpha.1"
+version = "^1.0"
